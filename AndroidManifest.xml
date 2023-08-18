@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gtech.cab"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.gtech.cab.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gtech.cab.Register" >
+        </activity>
+        <activity android:name="com.gtech.cab.Welcome" >
+        </activity>
+        <activity android:name="com.gtech.cab.ForgotPassword" >
+        </activity>
+        <activity android:name="com.gtech.cab.Password_Recovery" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Login"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Leader"
+            android:label="@string/title_activity_leader" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.ViewStudentDetails"
+            android:label="@string/title_activity_view_student_details" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.AdminLogin"
+            android:label="@string/title_activity_admin_login" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.ManagementLogin"
+            android:label="@string/title_activity_management_login" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Place"
+            android:label="@string/title_activity_place" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Chennai"
+            android:label="@string/title_activity_chennai" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Chola"
+            android:label="@string/title_activity_chola" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Chuber"
+            android:label="@string/title_activity_chuber" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Chredtaxi"
+            android:label="@string/title_activity_chredtaxi" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Chfasttrack"
+            android:label="@string/title_activity_chfasttrack" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Chgozo"
+            android:label="@string/title_activity_chgozo" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Coimbatore"
+            android:label="@string/title_activity_coimbatore" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Madurai"
+            android:label="@string/title_activity_madurai" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Erode"
+            android:label="@string/title_activity_erode" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Trichy"
+            android:label="@string/title_activity_trichy" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Cbeola"
+            android:label="@string/title_activity_cbeola" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Cberedtaxi"
+            android:label="@string/title_activity_cberedtaxi" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Cbepinktaxi"
+            android:label="@string/title_activity_cbepinktaxi" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Cbefriendstrack"
+            android:label="@string/title_activity_cbefriendstrack" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Cbegotaxi"
+            android:label="@string/title_activity_cbegotaxi" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Mdredtaxi"
+            android:label="@string/title_activity_mdredtaxi" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Mdfasttrack"
+            android:label="@string/title_activity_mdfasttrack" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Mdbesttrack"
+            android:label="@string/title_activity_mdbesttrack" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Mdshanthicab"
+            android:label="@string/title_activity_mdshanthicab" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Mdsafetrack"
+            android:label="@string/title_activity_mdsafetrack" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Erddora"
+            android:label="@string/title_activity_erddora" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Erdlemon"
+            android:label="@string/title_activity_erdlemon" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Erdredtaxi"
+            android:label="@string/title_activity_erdredtaxi" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Erdfasttrack"
+            android:label="@string/title_activity_erdfasttrack" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Erdsaravana"
+            android:label="@string/title_activity_erdsaravana" >
+        </activity>
+        <activity
+            android:name="com.gtech.feesstructure.Trredtaxi"
+            android:label="@string/title_activity_trredtaxi" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Trredtaxi"
+            android:label="@string/title_activity_trredtaxi" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Trwifi"
+            android:label="@string/title_activity_trwifi" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Trcarecabs"
+            android:label="@string/title_activity_trcarecabs" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Trbesttrack"
+            android:label="@string/title_activity_trbesttrack" >
+        </activity>
+        <activity
+            android:name="com.gtech.cab.Trfriends"
+            android:label="@string/title_activity_trfriends" >
+        </activity>
+    </application>
+
+</manifest>
