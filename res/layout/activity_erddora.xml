@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgerode"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Erddora" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="280px"
+        android:layout_height="100px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/erddora" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400px"
+        android:layout_height="200px"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/erddoracar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:text="Dora call taxi services in the erode, the belief that customer statisfaction is important as their services."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90px"
+        android:layout_height="70px"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/backb" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180px"
+        android:layout_height="70px"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignRight="@+id/imageView2"
+        android:background="@drawable/bbooknow" />
+
+</RelativeLayout>

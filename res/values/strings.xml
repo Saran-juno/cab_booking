@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cab</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Register"><u>Register</u></string>
+    <string name="Change"><u>Forgot Password?</u></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_leader">AddStudentDetails</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_view_student_details">ViewStudentDetails</string>
+    <string name="title_activity_admin_login">AdminLogin</string>
+    <string name="title_activity_management_login">ManagementLogin</string>
+    <string name="title_activity_place">Place</string>
+    <string name="title_activity_chennai">Chennai</string>
+    <string name="title_activity_chola">Chola</string>
+    <string name="title_activity_chuber">Chuber</string>
+    <string name="title_activity_chredtaxi">Chredtaxi</string>
+    <string name="title_activity_chfasttrack">Chfasttrack</string>
+    <string name="title_activity_chgozo">Chgozo</string>
+    <string name="title_activity_coimbatore">Coimbatore</string>
+    <string name="title_activity_madurai">Madurai</string>
+    <string name="title_activity_erode">Erode</string>
+    <string name="title_activity_trichy">Trichy</string>
+    <string name="title_activity_cbeola">Cbeola</string>
+    <string name="title_activity_cberedtaxi">Cberedtaxi</string>
+    <string name="title_activity_cbepinktaxi">Cbepinktaxi</string>
+    <string name="title_activity_cbefriendstrack">Cbefriendstrack</string>
+    <string name="title_activity_cbegotaxi">Cbegotaxi</string>
+    <string name="title_activity_mdredtaxi">Mdredtaxi</string>
+    <string name="title_activity_mdfasttrack">Mdfasttrack</string>
+    <string name="title_activity_mdbesttrack">Mdbesttrack</string>
+    <string name="title_activity_mdshanthicab">Mdshanthicab</string>
+    <string name="title_activity_mdsafetrack">Mdsafetrack</string>
+    <string name="title_activity_erddora">Erddora</string>
+    <string name="title_activity_erdlemon">Erdlemon</string>
+    <string name="title_activity_erdredtaxi">Erdredtaxi</string>
+    <string name="title_activity_erdfasttrack">Erdfasttrack</string>
+    <string name="title_activity_erdsaravana">Erdsaravana</string>
+    <string name="title_activity_trredtaxi">Trredtaxi</string>
+    <string name="title_activity_trwifi">Trwifi</string>
+    <string name="title_activity_trcarecabs">Trcarecabs</string>
+    <string name="title_activity_trbesttrack">Trbesttrack</string>
+    <string name="title_activity_trfriends">Trfriends</string>
+
+</resources>
